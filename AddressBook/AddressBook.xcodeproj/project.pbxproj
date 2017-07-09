@@ -13,6 +13,9 @@
 		800AE58C1F12159100FA1332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AE58A1F12159100FA1332 /* Main.storyboard */; };
 		800AE58E1F12159100FA1332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AE58D1F12159100FA1332 /* Assets.xcassets */; };
 		800AE5911F12159100FA1332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AE58F1F12159100FA1332 /* LaunchScreen.storyboard */; };
+		800AE5A11F121B6300FA1332 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE59A1F121B6300FA1332 /* UIViewExt.m */; };
+		800AE5A21F121B6300FA1332 /* TTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE59D1F121B6300FA1332 /* TTNavViewController.m */; };
+		800AE5A31F121B6300FA1332 /* TTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE59F1F121B6300FA1332 /* TTTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,14 @@
 		800AE58D1F12159100FA1332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800AE5901F12159100FA1332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800AE5921F12159100FA1332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800AE5991F121B6300FA1332 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		800AE59A1F121B6300FA1332 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		800AE59B1F121B6300FA1332 /* GlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefines.h; sourceTree = "<group>"; };
+		800AE59C1F121B6300FA1332 /* TTNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTNavViewController.h; sourceTree = "<group>"; };
+		800AE59D1F121B6300FA1332 /* TTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNavViewController.m; sourceTree = "<group>"; };
+		800AE59E1F121B6300FA1332 /* TTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabBarController.h; sourceTree = "<group>"; };
+		800AE59F1F121B6300FA1332 /* TTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabBarController.m; sourceTree = "<group>"; };
+		800AE5A01F121B6300FA1332 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +69,7 @@
 		800AE5801F12159100FA1332 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				800AE5841F12159100FA1332 /* AppDelegate.h */,
-				800AE5851F12159100FA1332 /* AppDelegate.m */,
-				800AE5871F12159100FA1332 /* ViewController.h */,
-				800AE5881F12159100FA1332 /* ViewController.m */,
-				800AE58A1F12159100FA1332 /* Main.storyboard */,
-				800AE58D1F12159100FA1332 /* Assets.xcassets */,
-				800AE58F1F12159100FA1332 /* LaunchScreen.storyboard */,
-				800AE5921F12159100FA1332 /* Info.plist */,
+				800AE5981F121B5800FA1332 /* Base */,
 				800AE5811F12159100FA1332 /* Supporting Files */,
 			);
 			path = AddressBook;
@@ -74,9 +78,32 @@
 		800AE5811F12159100FA1332 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				800AE5841F12159100FA1332 /* AppDelegate.h */,
+				800AE5851F12159100FA1332 /* AppDelegate.m */,
+				800AE5871F12159100FA1332 /* ViewController.h */,
+				800AE5881F12159100FA1332 /* ViewController.m */,
+				800AE58A1F12159100FA1332 /* Main.storyboard */,
+				800AE58D1F12159100FA1332 /* Assets.xcassets */,
+				800AE58F1F12159100FA1332 /* LaunchScreen.storyboard */,
+				800AE5921F12159100FA1332 /* Info.plist */,
 				800AE5821F12159100FA1332 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		800AE5981F121B5800FA1332 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5991F121B6300FA1332 /* UIViewExt.h */,
+				800AE59A1F121B6300FA1332 /* UIViewExt.m */,
+				800AE59B1F121B6300FA1332 /* GlobalDefines.h */,
+				800AE59C1F121B6300FA1332 /* TTNavViewController.h */,
+				800AE59D1F121B6300FA1332 /* TTNavViewController.m */,
+				800AE59E1F121B6300FA1332 /* TTTabBarController.h */,
+				800AE59F1F121B6300FA1332 /* TTTabBarController.m */,
+				800AE5A01F121B6300FA1332 /* PrefixHeader.pch */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800AE5A21F121B6300FA1332 /* TTNavViewController.m in Sources */,
+				800AE5A11F121B6300FA1332 /* UIViewExt.m in Sources */,
 				800AE5891F12159100FA1332 /* ViewController.m in Sources */,
+				800AE5A31F121B6300FA1332 /* TTTabBarController.m in Sources */,
 				800AE5861F12159100FA1332 /* AppDelegate.m in Sources */,
 				800AE5831F12159100FA1332 /* main.m in Sources */,
 			);
@@ -309,6 +339,7 @@
 				800AE5971F12159100FA1332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

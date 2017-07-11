@@ -21,6 +21,21 @@
 		800AE5B41F13185400FA1332 /* TTContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5AC1F13185400FA1332 /* TTContactModel.m */; };
 		800AE5B51F13185400FA1332 /* TTAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5AF1F13185400FA1332 /* TTAddressView.m */; };
 		800AE5B61F13185400FA1332 /* TTContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5B11F13185400FA1332 /* TTContactsTableViewCell.m */; };
+		800AE5DD1F14680E00FA1332 /* ContactDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 800AE5B81F14680E00FA1332 /* ContactDB.db */; };
+		800AE5DE1F14680E00FA1332 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5BB1F14680E00FA1332 /* FMDatabase.m */; };
+		800AE5DF1F14680E00FA1332 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5BD1F14680E00FA1332 /* FMDatabaseAdditions.m */; };
+		800AE5E01F14680E00FA1332 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5BF1F14680E00FA1332 /* FMDatabasePool.m */; };
+		800AE5E11F14680E00FA1332 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5C11F14680E00FA1332 /* FMDatabaseQueue.m */; };
+		800AE5E21F14680E00FA1332 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5C41F14680E00FA1332 /* FMResultSet.m */; };
+		800AE5E31F14680E00FA1332 /* TTIMMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5C71F14680E00FA1332 /* TTIMMemberModel.m */; };
+		800AE5E41F14680E00FA1332 /* TTIMMemberOrgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5C91F14680E00FA1332 /* TTIMMemberOrgModel.m */; };
+		800AE5E51F14680E00FA1332 /* TTIMMemberTeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5CB1F14680E00FA1332 /* TTIMMemberTeamModel.m */; };
+		800AE5E61F14680E00FA1332 /* TTIMOrgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5CD1F14680E00FA1332 /* TTIMOrgModel.m */; };
+		800AE5E71F14680E00FA1332 /* TTBaseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D31F14680E00FA1332 /* TTBaseDB.m */; };
+		800AE5E81F14680E00FA1332 /* TTContactDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D51F14680E00FA1332 /* TTContactDB.m */; };
+		800AE5E91F14680E00FA1332 /* TTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D71F14680E00FA1332 /* TTDBManager.m */; };
+		800AE5EA1F14680E00FA1332 /* TTFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D91F14680E00FA1332 /* TTFileHelper.m */; };
+		800AE5EB1F14680E00FA1332 /* TTMemberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5DC1F14680E00FA1332 /* TTMemberManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +67,40 @@
 		800AE5AF1F13185400FA1332 /* TTAddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAddressView.m; sourceTree = "<group>"; };
 		800AE5B01F13185400FA1332 /* TTContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTContactsTableViewCell.h; sourceTree = "<group>"; };
 		800AE5B11F13185400FA1332 /* TTContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTContactsTableViewCell.m; sourceTree = "<group>"; };
+		800AE5B81F14680E00FA1332 /* ContactDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContactDB.db; sourceTree = "<group>"; };
+		800AE5BA1F14680E00FA1332 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		800AE5BB1F14680E00FA1332 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		800AE5BC1F14680E00FA1332 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		800AE5BD1F14680E00FA1332 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		800AE5BE1F14680E00FA1332 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		800AE5BF1F14680E00FA1332 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		800AE5C01F14680E00FA1332 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		800AE5C11F14680E00FA1332 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		800AE5C21F14680E00FA1332 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		800AE5C31F14680E00FA1332 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		800AE5C41F14680E00FA1332 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		800AE5C61F14680E00FA1332 /* TTIMMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMMemberModel.h; sourceTree = "<group>"; };
+		800AE5C71F14680E00FA1332 /* TTIMMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTIMMemberModel.m; sourceTree = "<group>"; };
+		800AE5C81F14680E00FA1332 /* TTIMMemberOrgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMMemberOrgModel.h; sourceTree = "<group>"; };
+		800AE5C91F14680E00FA1332 /* TTIMMemberOrgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTIMMemberOrgModel.m; sourceTree = "<group>"; };
+		800AE5CA1F14680E00FA1332 /* TTIMMemberTeamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMMemberTeamModel.h; sourceTree = "<group>"; };
+		800AE5CB1F14680E00FA1332 /* TTIMMemberTeamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTIMMemberTeamModel.m; sourceTree = "<group>"; };
+		800AE5CC1F14680E00FA1332 /* TTIMOrgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMOrgModel.h; sourceTree = "<group>"; };
+		800AE5CD1F14680E00FA1332 /* TTIMOrgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTIMOrgModel.m; sourceTree = "<group>"; };
+		800AE5CF1F14680E00FA1332 /* TTIMDBManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMDBManagerProtocol.h; sourceTree = "<group>"; };
+		800AE5D01F14680E00FA1332 /* TTIMOrgDBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMOrgDBProtocol.h; sourceTree = "<group>"; };
+		800AE5D11F14680E00FA1332 /* TTIMTeamDBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMTeamDBProtocol.h; sourceTree = "<group>"; };
+		800AE5D21F14680E00FA1332 /* TTBaseDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseDB.h; sourceTree = "<group>"; };
+		800AE5D31F14680E00FA1332 /* TTBaseDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseDB.m; sourceTree = "<group>"; };
+		800AE5D41F14680E00FA1332 /* TTContactDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTContactDB.h; sourceTree = "<group>"; };
+		800AE5D51F14680E00FA1332 /* TTContactDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTContactDB.m; sourceTree = "<group>"; };
+		800AE5D61F14680E00FA1332 /* TTDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDBManager.h; sourceTree = "<group>"; };
+		800AE5D71F14680E00FA1332 /* TTDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDBManager.m; sourceTree = "<group>"; };
+		800AE5D81F14680E00FA1332 /* TTFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFileHelper.h; sourceTree = "<group>"; };
+		800AE5D91F14680E00FA1332 /* TTFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFileHelper.m; sourceTree = "<group>"; };
+		800AE5DA1F14680E00FA1332 /* TTIMMemberDBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMMemberDBProtocol.h; sourceTree = "<group>"; };
+		800AE5DB1F14680E00FA1332 /* TTMemberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMemberManager.h; sourceTree = "<group>"; };
+		800AE5DC1F14680E00FA1332 /* TTMemberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMemberManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +133,7 @@
 		800AE5801F12159100FA1332 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				800AE5B71F14680E00FA1332 /* TTDBManager */,
 				800AE5A41F13185400FA1332 /* Address */,
 				800AE5981F121B5800FA1332 /* Base */,
 				800AE5811F12159100FA1332 /* Supporting Files */,
@@ -163,6 +213,71 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		800AE5B71F14680E00FA1332 /* TTDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5B81F14680E00FA1332 /* ContactDB.db */,
+				800AE5B91F14680E00FA1332 /* FMDB */,
+				800AE5C51F14680E00FA1332 /* Model */,
+				800AE5CE1F14680E00FA1332 /* Protocol */,
+				800AE5D21F14680E00FA1332 /* TTBaseDB.h */,
+				800AE5D31F14680E00FA1332 /* TTBaseDB.m */,
+				800AE5D41F14680E00FA1332 /* TTContactDB.h */,
+				800AE5D51F14680E00FA1332 /* TTContactDB.m */,
+				800AE5D61F14680E00FA1332 /* TTDBManager.h */,
+				800AE5D71F14680E00FA1332 /* TTDBManager.m */,
+				800AE5D81F14680E00FA1332 /* TTFileHelper.h */,
+				800AE5D91F14680E00FA1332 /* TTFileHelper.m */,
+				800AE5DA1F14680E00FA1332 /* TTIMMemberDBProtocol.h */,
+				800AE5DB1F14680E00FA1332 /* TTMemberManager.h */,
+				800AE5DC1F14680E00FA1332 /* TTMemberManager.m */,
+			);
+			path = TTDBManager;
+			sourceTree = "<group>";
+		};
+		800AE5B91F14680E00FA1332 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5BA1F14680E00FA1332 /* FMDatabase.h */,
+				800AE5BB1F14680E00FA1332 /* FMDatabase.m */,
+				800AE5BC1F14680E00FA1332 /* FMDatabaseAdditions.h */,
+				800AE5BD1F14680E00FA1332 /* FMDatabaseAdditions.m */,
+				800AE5BE1F14680E00FA1332 /* FMDatabasePool.h */,
+				800AE5BF1F14680E00FA1332 /* FMDatabasePool.m */,
+				800AE5C01F14680E00FA1332 /* FMDatabaseQueue.h */,
+				800AE5C11F14680E00FA1332 /* FMDatabaseQueue.m */,
+				800AE5C21F14680E00FA1332 /* FMDB.h */,
+				800AE5C31F14680E00FA1332 /* FMResultSet.h */,
+				800AE5C41F14680E00FA1332 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		800AE5C51F14680E00FA1332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5C61F14680E00FA1332 /* TTIMMemberModel.h */,
+				800AE5C71F14680E00FA1332 /* TTIMMemberModel.m */,
+				800AE5C81F14680E00FA1332 /* TTIMMemberOrgModel.h */,
+				800AE5C91F14680E00FA1332 /* TTIMMemberOrgModel.m */,
+				800AE5CA1F14680E00FA1332 /* TTIMMemberTeamModel.h */,
+				800AE5CB1F14680E00FA1332 /* TTIMMemberTeamModel.m */,
+				800AE5CC1F14680E00FA1332 /* TTIMOrgModel.h */,
+				800AE5CD1F14680E00FA1332 /* TTIMOrgModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		800AE5CE1F14680E00FA1332 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5CF1F14680E00FA1332 /* TTIMDBManagerProtocol.h */,
+				800AE5D01F14680E00FA1332 /* TTIMOrgDBProtocol.h */,
+				800AE5D11F14680E00FA1332 /* TTIMTeamDBProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +338,7 @@
 			files = (
 				800AE5911F12159100FA1332 /* LaunchScreen.storyboard in Resources */,
 				800AE58E1F12159100FA1332 /* Assets.xcassets in Resources */,
+				800AE5DD1F14680E00FA1332 /* ContactDB.db in Resources */,
 				800AE58C1F12159100FA1332 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,15 +350,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800AE5E61F14680E00FA1332 /* TTIMOrgModel.m in Sources */,
 				800AE5A21F121B6300FA1332 /* TTNavViewController.m in Sources */,
 				800AE5B41F13185400FA1332 /* TTContactModel.m in Sources */,
+				800AE5EB1F14680E00FA1332 /* TTMemberManager.m in Sources */,
 				800AE5A11F121B6300FA1332 /* UIViewExt.m in Sources */,
+				800AE5DE1F14680E00FA1332 /* FMDatabase.m in Sources */,
+				800AE5E71F14680E00FA1332 /* TTBaseDB.m in Sources */,
 				800AE5B61F13185400FA1332 /* TTContactsTableViewCell.m in Sources */,
+				800AE5E11F14680E00FA1332 /* FMDatabaseQueue.m in Sources */,
+				800AE5E21F14680E00FA1332 /* FMResultSet.m in Sources */,
+				800AE5E51F14680E00FA1332 /* TTIMMemberTeamModel.m in Sources */,
 				800AE5891F12159100FA1332 /* ViewController.m in Sources */,
 				800AE5A31F121B6300FA1332 /* TTTabBarController.m in Sources */,
 				800AE5B51F13185400FA1332 /* TTAddressView.m in Sources */,
+				800AE5E31F14680E00FA1332 /* TTIMMemberModel.m in Sources */,
+				800AE5DF1F14680E00FA1332 /* FMDatabaseAdditions.m in Sources */,
+				800AE5E41F14680E00FA1332 /* TTIMMemberOrgModel.m in Sources */,
+				800AE5E91F14680E00FA1332 /* TTDBManager.m in Sources */,
+				800AE5EA1F14680E00FA1332 /* TTFileHelper.m in Sources */,
 				800AE5861F12159100FA1332 /* AppDelegate.m in Sources */,
 				800AE5B31F13185400FA1332 /* TTAddressSearchViewController.m in Sources */,
+				800AE5E81F14680E00FA1332 /* TTContactDB.m in Sources */,
+				800AE5E01F14680E00FA1332 /* FMDatabasePool.m in Sources */,
 				800AE5B21F13185400FA1332 /* TTAddressBookViewController.m in Sources */,
 				800AE5831F12159100FA1332 /* main.m in Sources */,
 			);

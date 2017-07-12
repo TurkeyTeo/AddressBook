@@ -36,6 +36,11 @@
 		800AE5E91F14680E00FA1332 /* TTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D71F14680E00FA1332 /* TTDBManager.m */; };
 		800AE5EA1F14680E00FA1332 /* TTFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5D91F14680E00FA1332 /* TTFileHelper.m */; };
 		800AE5EB1F14680E00FA1332 /* TTMemberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5DC1F14680E00FA1332 /* TTMemberManager.m */; };
+		800AE5FE1F15B77D00FA1332 /* TTAddressDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5F51F15B77D00FA1332 /* TTAddressDetailVC.m */; };
+		800AE5FF1F15B77D00FA1332 /* TTAddressDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5F81F15B77D00FA1332 /* TTAddressDetailModel.m */; };
+		800AE6001F15B77D00FA1332 /* TTHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5FB1F15B77D00FA1332 /* TTHeadTableViewCell.m */; };
+		800AE6011F15B77D00FA1332 /* TTHeadTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 800AE5FD1F15B77D00FA1332 /* TTHeadTitleView.m */; };
+		800AE6041F15B7C300FA1332 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 800AE6031F15B7C300FA1332 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +106,15 @@
 		800AE5DA1F14680E00FA1332 /* TTIMMemberDBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIMMemberDBProtocol.h; sourceTree = "<group>"; };
 		800AE5DB1F14680E00FA1332 /* TTMemberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMemberManager.h; sourceTree = "<group>"; };
 		800AE5DC1F14680E00FA1332 /* TTMemberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMemberManager.m; sourceTree = "<group>"; };
+		800AE5F41F15B77D00FA1332 /* TTAddressDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAddressDetailVC.h; sourceTree = "<group>"; };
+		800AE5F51F15B77D00FA1332 /* TTAddressDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAddressDetailVC.m; sourceTree = "<group>"; };
+		800AE5F71F15B77D00FA1332 /* TTAddressDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAddressDetailModel.h; sourceTree = "<group>"; };
+		800AE5F81F15B77D00FA1332 /* TTAddressDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAddressDetailModel.m; sourceTree = "<group>"; };
+		800AE5FA1F15B77D00FA1332 /* TTHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHeadTableViewCell.h; sourceTree = "<group>"; };
+		800AE5FB1F15B77D00FA1332 /* TTHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHeadTableViewCell.m; sourceTree = "<group>"; };
+		800AE5FC1F15B77D00FA1332 /* TTHeadTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHeadTitleView.h; sourceTree = "<group>"; };
+		800AE5FD1F15B77D00FA1332 /* TTHeadTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHeadTitleView.m; sourceTree = "<group>"; };
+		800AE6031F15B7C300FA1332 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800AE6041F15B7C300FA1332 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +134,7 @@
 			children = (
 				800AE5801F12159100FA1332 /* AddressBook */,
 				800AE57F1F12159100FA1332 /* Products */,
+				800AE6021F15B7C300FA1332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +149,7 @@
 		800AE5801F12159100FA1332 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				800AE5F21F15B77D00FA1332 /* AddressDetail */,
 				800AE5B71F14680E00FA1332 /* TTDBManager */,
 				800AE5A41F13185400FA1332 /* Address */,
 				800AE5981F121B5800FA1332 /* Base */,
@@ -278,6 +295,53 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		800AE5F21F15B77D00FA1332 /* AddressDetail */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5F31F15B77D00FA1332 /* Ctrl */,
+				800AE5F61F15B77D00FA1332 /* Model */,
+				800AE5F91F15B77D00FA1332 /* View */,
+			);
+			path = AddressDetail;
+			sourceTree = "<group>";
+		};
+		800AE5F31F15B77D00FA1332 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5F41F15B77D00FA1332 /* TTAddressDetailVC.h */,
+				800AE5F51F15B77D00FA1332 /* TTAddressDetailVC.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		800AE5F61F15B77D00FA1332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5F71F15B77D00FA1332 /* TTAddressDetailModel.h */,
+				800AE5F81F15B77D00FA1332 /* TTAddressDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		800AE5F91F15B77D00FA1332 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				800AE5FA1F15B77D00FA1332 /* TTHeadTableViewCell.h */,
+				800AE5FB1F15B77D00FA1332 /* TTHeadTableViewCell.m */,
+				800AE5FC1F15B77D00FA1332 /* TTHeadTitleView.h */,
+				800AE5FD1F15B77D00FA1332 /* TTHeadTitleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		800AE6021F15B7C300FA1332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800AE6031F15B7C300FA1332 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,8 +422,11 @@
 				800AE5DE1F14680E00FA1332 /* FMDatabase.m in Sources */,
 				800AE5E71F14680E00FA1332 /* TTBaseDB.m in Sources */,
 				800AE5B61F13185400FA1332 /* TTContactsTableViewCell.m in Sources */,
+				800AE5FF1F15B77D00FA1332 /* TTAddressDetailModel.m in Sources */,
+				800AE6001F15B77D00FA1332 /* TTHeadTableViewCell.m in Sources */,
 				800AE5E11F14680E00FA1332 /* FMDatabaseQueue.m in Sources */,
 				800AE5E21F14680E00FA1332 /* FMResultSet.m in Sources */,
+				800AE5FE1F15B77D00FA1332 /* TTAddressDetailVC.m in Sources */,
 				800AE5E51F14680E00FA1332 /* TTIMMemberTeamModel.m in Sources */,
 				800AE5891F12159100FA1332 /* ViewController.m in Sources */,
 				800AE5A31F121B6300FA1332 /* TTTabBarController.m in Sources */,
@@ -373,6 +440,7 @@
 				800AE5B31F13185400FA1332 /* TTAddressSearchViewController.m in Sources */,
 				800AE5E81F14680E00FA1332 /* TTContactDB.m in Sources */,
 				800AE5E01F14680E00FA1332 /* FMDatabasePool.m in Sources */,
+				800AE6011F15B77D00FA1332 /* TTHeadTitleView.m in Sources */,
 				800AE5B21F13185400FA1332 /* TTAddressBookViewController.m in Sources */,
 				800AE5831F12159100FA1332 /* main.m in Sources */,
 			);

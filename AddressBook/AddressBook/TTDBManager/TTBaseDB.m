@@ -25,13 +25,13 @@
 {
     NSArray *searchPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES);
     NSString *doc = [searchPaths objectAtIndex:0];
-    NSString *dbFilePath = [doc stringByAppendingPathComponent:@"ContactDB.db"];
+    NSString *dbFilePath = [doc stringByAppendingPathComponent:@"Contact.db"];
 
     // 复制本地数据到沙盒中
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if (![fileManager fileExistsAtPath:dbFilePath]) {
         // 获得数据库文件在工程中的路径——源路径。
-        NSString *sourcesPath = [[NSBundle mainBundle] pathForResource:@"ContactDB"ofType:@"db"];
+        NSString *sourcesPath = [[NSBundle mainBundle] pathForResource:@"Contact"ofType:@"db"];
         
         NSError *error ;
         if ([fileManager copyItemAtPath:sourcesPath toPath:dbFilePath error:&error]) {

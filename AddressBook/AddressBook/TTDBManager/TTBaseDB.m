@@ -16,7 +16,6 @@
     self = [super init];
     if (self)
     {
-//        self.dbQueue = [FMDatabaseQueue databaseQueueWithPath:self.dbPath];
     }
     return self;
 }

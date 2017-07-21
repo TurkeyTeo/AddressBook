@@ -11,7 +11,7 @@
 #import "TTHeadTableViewCell.h"
 #import "TTAddressDetailModel.h"
 
-@interface TTAddressDetailVC ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface TTAddressDetailVC ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource,TTHeadTableViewClickDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "TTContactModel.h"
 
+
 @interface TTAddressDetailVC : UITableViewController
 
 @property (nonatomic, strong) TTContactModel *transModel;

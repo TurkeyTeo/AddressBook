@@ -31,7 +31,7 @@ dispatch_async(dispatch_get_main_queue(), block);\
 
 
 #ifdef DEBUG
-#define NSLog(...) NSLog(__VA_ARGS__)
+#define DDNSLog(...) NSLog(__VA_ARGS__)
 #define debugMethod() NSLog(@"%s", __func__)
 #else
 #define NSLog(...)

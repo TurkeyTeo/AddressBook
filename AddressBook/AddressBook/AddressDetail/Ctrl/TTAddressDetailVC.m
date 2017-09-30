@@ -14,6 +14,7 @@
 @interface TTAddressDetailVC ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource,TTHeadTableViewClickDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
+
 @end
 
 @implementation TTAddressDetailVC
@@ -34,6 +35,7 @@
     [self getOrgData];
     [self getMemberData];
     [self getInviteColleagueData];
+    
 }
 
 
